@@ -1,6 +1,8 @@
+import Cta from "@/components/cta";
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar";
 import Product from "@/components/product";
+import Statistics from "@/components/statistics";
 import { ProductType } from "@/interfaces";
 
 const HomePage = async () => {
@@ -20,6 +22,8 @@ const HomePage = async () => {
             return <Product key={product.id} product={product} />;
           })}
         </div>
+        <Cta/>
+        <Statistics/>
       </section>
     </main>
   );

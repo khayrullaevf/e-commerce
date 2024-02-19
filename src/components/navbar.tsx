@@ -15,13 +15,15 @@ const Navbar = () => {
           <Link href={"/products"} className="mr-5 hover:text-gray-900">
             All products
           </Link>
+          <Link href={"/contacts"} className="mr-5 hover:text-gray-900">
+            Contacts
+          </Link>
         </nav>
-        <button className="button bg-blue-600 text-white  border-transparent hover:bg-transparent hover:border-blue-600 hover:text-black">
-          Log in
-        </button>
-        <button className="button bg-transparent text-black  border-blue-600 hover:bg-blue-600 hover:border-transparent hover:text-white">
-          Sign up
-        </button>
+        <Link href={`/shopping-cart`}>
+          <button className="button bg-blue-600 text-white  border-transparent hover:bg-transparent hover:border-blue-600 hover:text-black">
+            My bag
+          </button>
+        </Link>
       </div>
     </header>
   );

@@ -10,5 +10,6 @@ export interface ProductType{
     rating:{
         rate:number,
         count:number
-    }
+    },
+    quantity:number
 }
