@@ -7,6 +7,7 @@ import { Dialog } from "@headlessui/react";
 import CustomImage from "@/components/image";
 import { StarIcon as StarIconOutline } from "@heroicons/react/24/outline";
 
+// import ReactStars from "react-stars";
 import { StarIcon } from "@heroicons/react/24/solid";
 
 const ProductDetailedPage = () => {
@@ -80,6 +81,7 @@ const ProductDetailedPage = () => {
                               />
                             )
                           )}
+                          {/* <ReactStars value={product?.rating.rate} edit={false}/> */}
                         </div>
                       )}
                       <p className="text-blue-600 hover:underline cursor-pointer text-xs">
