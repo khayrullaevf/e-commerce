@@ -75,7 +75,7 @@ const ShoppingCart = () => {
                   className="justify-between mb-6 rounded-lg bg-white p-6 shadow-md sm:flex sm:justify-start"
                 >
                   <div className="relative w-52">
-                    <CustomImage product={product} fill />
+                    <CustomImage product={product} fill  sizes={0}/>
                   </div>
                   <div className="sm:ml-4 sm:flex sm:w-full  gap-x-4 sm:justify-between">
                     <div className="mt-5 sm:mt-0">

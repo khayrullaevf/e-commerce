@@ -14,7 +14,7 @@ const ProductDetailsPage = async ({ params: { id } }: Props) => {
     const product = await res.json();
     return (
       <div className="max-w-7xl mx-auto  flex flex-col md:flex-row items-center gap-8 px-4 mt-48 pb-10 ">
-        <CustomImage product={product} fill={false} />
+        <CustomImage product={product} fill={false} sizes={0} />
         <div className="flex-1">
           <div className="lg:w-2/3 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
             <h2 className="text-sm title-font text-gray-500 tracking-widest">

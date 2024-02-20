@@ -7,9 +7,10 @@ import { FC, useState } from "react";
 interface Props {
   product: ProductType;
   fill: boolean;
+  sizes:number
 }
 
-const CustomImage: FC<Props> = ({ product, fill }) => {
+const CustomImage: FC<Props> = ({ product, fill,sizes }) => {
   const [isLoading, setisLoading] = useState(true);
 
   return (

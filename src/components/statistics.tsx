@@ -46,6 +46,8 @@ const Statistics = async() => {
           <HeroImage
             product={product}
             fill={false}
+            sizes={0}
+            priority
           />
         </div>
       </div>

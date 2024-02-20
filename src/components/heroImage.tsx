@@ -7,9 +7,11 @@ import { FC, useState } from "react";
 interface Props {
   product: ProductType;
   fill: boolean;
+  sizes:number
+  priority:boolean
 }
 
-const HeroImage: FC<Props> = ({ product, fill }) => {
+const HeroImage: FC<Props> = ({ product, fill,sizes }) => {
   const [isLoading, setisLoading] = useState(true);
 
   return (
