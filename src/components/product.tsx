@@ -11,7 +11,7 @@ const Product: FC<{ product: ProductType }> = ({ product }) => {
   return (
     <Link href={`/product/${product.id}`} className=" h-[450px] flex flex-col group rounded-lg p-6  hover:scale-105  transition-transform  ease-out duration-200 border ">
       <div className="relative flex-1  max-h-72 ">
-        <CustomImage product={product}  fill  sizes={0}/>
+        <CustomImage product={product}  fill  />
       </div>
 
       <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font mt-3">

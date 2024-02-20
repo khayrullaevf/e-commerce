@@ -74,7 +74,7 @@ const ProductDetailedPage = () => {
               <div className=" flex gap-x-8 h-96">
                 {product?.image && (
                   <div className="relative w-72 h-full hidden md:inline">
-                    <CustomImage product={product} fill  sizes={0} />
+                    <CustomImage product={product} fill  />
                   </div>
                 )}
                 <div className=" flex flex-1 flex-col">
