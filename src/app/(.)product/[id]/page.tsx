@@ -64,8 +64,8 @@ const ProductDetailedPage = () => {
       }}
       className="relative z-50"
     >
-      <div className="fixed inset-0  bg-black/30 " aria-hidden="true" />
-      <div className="fixed inset-0 overflow-y-auto">
+      <div className=" inset-0  bg-black/30 " aria-hidden="true" />
+      <div className=" inset-0 overflow-y-auto">
         <div className="flex min-h-full items-center justify-center p-4">
           <Dialog.Panel className="mx-auto max-w-3xl rounded bg-white p-10">
             {loading ? (
