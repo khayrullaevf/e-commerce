@@ -125,12 +125,11 @@ const ShoppingCart = () => {
                           {" "}
                           -{" "}
                         </span>
-                        <input
-                          className="h-8 w-8 border bg-white text-center text-xs outline-none"
-                          type="number"
-                          value={product.quantity}
-                          min="1"
-                        />
+                        
+                        <p className="h-8 w-8 border bg-white text-center text-xs outline-none flex items-center justify-center">
+                          {product.quantity}
+                        </p>
+
                         <span
                           onClick={() => handleIncrement(product.id)}
                           className="cursor-pointer rounded-r bg-gray-100 py-1 px-3 duration-100 hover:bg-blue-500 hover:text-blue-50"
